@@ -1,0 +1,27 @@
+ body {
+     background-color: #f8f9fa;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+ }
+
+ .calculator {
+     width: 300px;
+     background-color: rgb(163, 229, 139);
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+ }
+
+ #display {
+     font-size: 50px;
+     text-align: right;
+     margin-bottom: 40px;
+ }
+
+ .btn {
+     font-size: 18px;
+     margin: 4px;
+ }
